@@ -7,19 +7,16 @@ typedef double (*sistema)();
 double f0(double *x)
 {
   return 4*x[0] - x[1] + x[2] - x[0]*x[3];
-  
 }
 
 double f1(double *x)
 {
   return -x[0] + 3*x[1] - 2*x[2] - x[1]*x[3];
-
 }
 
 double f2(double *x)
 {
   return x[0] - 2*x[1] + 3*x[2] - x[2]*x[3];
-  
 }
 
 double f3(double *x)
